@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>T title:</strong>
+  <%= @taxi.t_title %>
+</p>
+
+<p>
+  <strong>T desc:</strong>
+  <%= @taxi.t_desc %>
+</p>
+
+<p>
+  <strong>T img:</strong>
+  <%= @taxi.t_img %>
+</p>
+
+<p>
+  <strong>T price:</strong>
+  <%= @taxi.t_price %>
+</p>
+
+<%= link_to 'Edit', edit_taxi_path(@taxi) %> |
+<%= link_to 'Back', taxis_path %>
